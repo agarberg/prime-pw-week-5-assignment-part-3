@@ -38,7 +38,10 @@ function showCollection(array){
 }
 showCollection(collection)
 //end for OF loop function
-
-function findByArtist(){
-
+let artists = [];
+function findByArtist(artist){
+for (let i of collection) {
+  if artist === (artist);
+  artists.push(song)
+}
 }
