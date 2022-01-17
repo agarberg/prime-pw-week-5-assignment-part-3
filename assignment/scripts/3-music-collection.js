@@ -39,13 +39,13 @@ function showCollection(array){
 showCollection(collection)
 //end for OF loop function
 
-//
-// function findByArtist(artist){
-//   let artists = [];                        create empty array
-//   for (let i of collection) {             for of loop through collection
-//   if collection.artist[i] === (artist){   look for specified artist
-//   artists.push(collection.artist.i);      push to new array
-//   console.log(artists);                   print new array
-// }
-// }
-// findByArtist(SirBumpsAlot)                 call function
+function findByArtist(certainArtist){
+  let artists = [];                                      //create empty array
+  for (let i = 0; collection.length; i++) {             //for of loop through collection
+    if (collection[i].artist === certainArtist) {      //look for specified artist
+      artists.push(collection[i].artist);             //push to new array
+}
+}
+console.log(artists);
+}
+findByArtist('SirBumpsAlot');            //    call function
