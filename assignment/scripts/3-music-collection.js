@@ -40,10 +40,14 @@ showCollection(collection)
 //end for OF loop function
 
 function findByArtist(certainArtist){
-  let artists = [];                                      //create empty array
-  for (let i = 0; collection.length; i++) {             //for of loop through collection
-    if (collection[i].artist === certainArtist) {      //look for specified artist
-      artists.push(collection[i].artist);             //push to new array
+//create empty array
+  let artists = [];
+  //for of loop through collection
+  for (let i = 0; i<collection.length; i++) {
+    //look for specified artist
+    if (collection[i].artist === certainArtist) {
+      //push to new array
+      artists.push(collection[i].artist);
 }
 }
 console.log(artists);
